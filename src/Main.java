@@ -7,9 +7,11 @@ public class Main {
 
         Matrix mat1 = new Matrix(M, 3, 2);
         Matrix mat2 = new Matrix(C, 3, 2);
+        Matrix mat3 = new Matrix(B, 2, 2);
 
-        mat1.print(mat2.addition(M,3,2));
-        mat1.print(mat1.multiplicationNum(M,3,2, 3));
-        mat1.print(mat1.multiplication(B,3,2));
+        mat3.print(B);
+        mat2.addition(M);
+        mat2.multiplicationNum(M,3);
+        mat1.multiplication(B);
     }
 }
